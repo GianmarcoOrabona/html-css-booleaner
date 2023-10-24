@@ -5,3 +5,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #endregion reset rules */
+
+/* #region utilities */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.bg-primary {
+    background-color: #7fa6fb;
+}
+
+.bg-secondary {
+    background-color: #dfe5f2;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* #endregion utilities */
+
+/* #region header */
+
+.title-banner {
+    background-color: #9cd6f4;
+    background-image: url(../img/pattern.png);
+    background-size: 25%;
+}
+
+.title-banner>img {
+    width: 10%;
+    padding: 40px;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+.metadata {
+    color: grey;
+    padding: 0 0 20px 0;
+}
+
+.info-text {
+    color: #6bb1ff;
+}
+
+th {
+    color: white;
+    text-align: left;
+}
+
+/* #endregion main */
+
+/* #region footer */
+
+.copyright {
+    background-color: #313a6b;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* #endregion footer */
