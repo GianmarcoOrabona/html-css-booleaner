@@ -55,8 +55,16 @@
     padding: 0 0 20px 0;
 }
 
+.date {
+    font-size: 12px;
+}
+
 .info-text {
     color: #6bb1ff;
+}
+
+mark {
+    background-color: yellow;
 }
 
 th {
